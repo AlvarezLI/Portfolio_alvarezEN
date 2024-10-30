@@ -39,3 +39,28 @@ Each model was evaluated using key metrics such as:
 - **Confusion Matrix**: Assessed the performance of the classification models.
 
 Models were compared to identify the best fit for predicting weather types, and **hyperparameter tuning** was performed to enhance results.
+
+## Project 3: [Public Works Analysis in Excel](https://github.com/AlvarezLI/Project_PublicWorks) 
+
+In this project, I conducted an extensive analysis of public works data in Argentina, aiming to gain insights into the distribution and status of infrastructure investments at a regional level.
+
+## Dataset Source
+The dataset was obtained from the Investment Map of the Ministry of Public Works of Argentina, which provides detailed information on public works in various provinces and their status of progress.
+
+## Data Analysis and Preprocessing Techniques
+To process and analyze the data, the following techniques were employed:
+
+- **Data Cleaning and Validation**: errors were removed, and both qualitative and quantitative values were validated to ensure the accuracy of the analysis.
+- **Pivot Tables**: pivot tables were used to facilitate data exploration and obtain answers to key questions such as the number of works by type, status, and geographical location.
+- **Data Segmentation**: segmenters were added to allow dynamic segmentation of the data by categories such as type of work, year, execution status, and province.
+
+## Visualization and Dashboard
+An interactive visual dashboard was created in Excel with charts and segmenters that allow for quick visualization of the distribution and status of public works:
+
+- **Distribution of Works by Province**: highlights provinces with the highest investment in works.
+- **Classification of Works by Status**: shows the progress of works (planned, in progress, completed).
+- **Analysis by Type of Work**: identifies priority categories of works in public investment.
+
+## Key Results
+This analysis provided an overview of the state of public works in Argentina, highlighting regions with the highest and lowest investment, as well as the most common project types and their level of progress. These insights are valuable for understanding investment trends and potential areas for improvement in public works management.
+
