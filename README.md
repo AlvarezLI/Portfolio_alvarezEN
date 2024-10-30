@@ -1,7 +1,7 @@
 # Portfolio Alvarez Luis Ignacio
 
 ## Project 1: [Mushroom Edibility Model](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
-This project is part of my final project for a data science course, where I classified different mushrooms based on their edibility.
+This project is part of my final exam for a data science course, where I classified different mushrooms based on their edibility.
 
 ### Dataset Source
 The dataset used in this project is the **Mushroom Classification dataset** from Kaggle, which provides a comprehensive description of mushroom characteristics.
