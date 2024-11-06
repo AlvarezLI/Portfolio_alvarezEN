@@ -40,7 +40,7 @@ Each model was evaluated using key metrics such as:
 
 Models were compared to identify the best fit for predicting weather types, and **hyperparameter tuning** was performed to enhance results.
 
-## Project 3: [Public Works Analysis in Excel and Tableau](https://github.com/AlvarezLI/Project_PublicWorks)
+## Project 3: [Public Works Analysis in Excel and Tableau](https://github.com/AlvarezLI/Excel-Tableau_PublicWorks)
 
 In this project, I conducted an extensive analysis of public works data in Argentina, aiming to gain insights into the distribution and status of infrastructure investments at a regional level, using both Excel and Tableau for enhanced visualization and data analysis.
 
@@ -67,3 +67,41 @@ An interactive visual dashboard was created in Excel and Tableau, enhancing the 
 
 ### Key Results
 This analysis provided an overview of the state of public works in Argentina, highlighting regions with the highest and lowest investment, as well as the most common project types and their level of progress. These insights are valuable for understanding investment trends and identifying potential areas for improvement in public works management.
+
+## Project 4: [Popular Festivals in Argentina Analysis](https://github.com/AlvarezLI/PowerBi-CostumbresArg)  
+This project focuses on the analysis of events and popular festivals in Argentina through a Power BI report. The goal was to explore event attendance, locations, and themes of each event.
+
+### Dataset Source
+The dataset used in this project is a compilation of information on events and popular festivals in Argentina, including details such as the number of attendees, event locations, and themes of the events.
+
+### Data Preprocessing Techniques
+- **Null Value Control**: Missing values were properly handled to ensure the integrity of the dataset.
+- **Categorical Variable Encoding**: Categorical features were transformed into numerical values, which is essential for data analysis.
+
+### Visualization and Analysis
+An interactive Power BI dashboard was developed to explore different aspects of the events:
+- **Attendance**: Includes graphs showing the number of attendees by month, year, and ticket type.
+- **Event Information**: A map shows the distribution of events by province.
+- **Theme Analysis**: Allows exploration of event themes, showing classification by ticket type and the number of events per theme.
+
+### Key Results
+This analysis provides a comprehensive view of participation in popular festivals in Argentina, highlighting trends in attendance, the geographical distribution of events, and predominant themes.
+
+## Project 5: [Spotify Music Data Analysis](https://github.com/AlvarezLI/PowerBI_Spotify)
+
+This project focuses on analyzing data from Spotify songs, aiming to explore musical characteristics and their relation to song popularity.
+
+### Dataset Source
+The dataset used in this project was downloaded from [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023), which provides detailed information about song characteristics such as tempo, valence, energy, and popularity.
+
+### Data Preprocessing Techniques
+- **Data Extraction**: The dataset was used to extract relevant song data for analysis.
+- **Data Visualization**: Visualizations were created to explore the distribution of musical characteristics and their relationship with song popularity.
+
+### Visualization and Analysis
+Several visualizations were created to explore different aspects of the songs:
+- **Tempo Distribution**: A histogram shows the distribution of song tempos.
+- **Energy vs Popularity**: A scatter plot was designed to illustrate the relationship between song energy and popularity.
+
+### Key Results
+This analysis provides insights into how musical characteristics influence the popularity of songs on Spotify, highlighting trends across different music genres.
