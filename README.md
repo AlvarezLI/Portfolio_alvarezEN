@@ -3,7 +3,7 @@
 Welcome to my data science portfolio! In this collection, you'll find various projects demonstrating my skills in data analysis, machine learning, and data visualization. The portfolio includes projects in both **English** and **Spanish** to reflect my bilingual capabilities.
 
 ---
-#  Data Science Projects (English-Python)
+#  Data Science Projects (English - Python)
 ---
 
 ## Project 1: [Mushroom Edibility Model](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
