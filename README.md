@@ -49,7 +49,7 @@ Each model was evaluated using key metrics such as:
 Models were compared to identify the best fit for predicting weather types, and **hyperparameter tuning** was performed to enhance results.
 
 ---
-# Proyectos de Data Analytics (Español-Excel, Tableau, PowerBI )
+# Proyectos de Data Analytics (Español - Excel, Tableau, PowerBI )
 ---
 
 ## Project 3: [Public Works Analysis in Excel and Tableau](https://github.com/AlvarezLI/Excel-Tableau_PublicWorks)  
