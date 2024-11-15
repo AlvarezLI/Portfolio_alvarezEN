@@ -17,6 +17,12 @@
             color: #444;
             text-align: center;
         }
+        .section-title {
+            font-size: 24px;
+            color: #0056b3;
+            margin-top: 40px;
+            text-align: center;
+        }
         .project {
             margin-bottom: 30px;
         }
@@ -38,18 +44,20 @@
 </head>
 <body>
     <h1>Luis Ignacio Alvarez Portfolio</h1>
+
+    <div class="section-title">Data Science Projects (In English)</div>
     
     <div class="project">
         <h2>Project 1: <a href="https://github.com/AlvarezLI/ProjectDS-Mushrooms" target="_blank">Mushroom Edibility Model</a></h2>
-        <p>This project is part of my final project for a Data Science course, where I classified different mushrooms based on their edibility.</p>
+        <p>This project is part of my final exam for a data science course, where I classified different mushrooms based on their edibility.</p>
         
         <h3>Dataset Source</h3>
-        <p>The dataset used is the <strong>mushroom classification dataset</strong> from Kaggle, which provides a comprehensive description of mushroom characteristics.</p>
+        <p>The dataset used in this project is the <strong>Mushroom Classification dataset</strong> from Kaggle, which provides a comprehensive description of mushroom characteristics.</p>
         
         <h3>Data Preprocessing Techniques</h3>
         <ul>
-            <li><strong>Null Value Checks</strong>: Ensured the integrity of the dataset by properly handling missing values.</li>
-            <li><strong>Categorical Variable Encoding</strong>: Transformed categorical features into numerical values for effective model training.</li>
+            <li><strong>Null Value Checks</strong>: Ensured the integrity of the dataset by handling missing values appropriately.</li>
+            <li><strong>Categorical Variable Encoding</strong>: Transformed categorical features into numerical values for effective machine learning training.</li>
         </ul>
         
         <h3>Machine Learning Algorithms</h3>
@@ -66,9 +74,9 @@
         
         <h3>Data Preprocessing Techniques</h3>
         <ul>
-            <li><strong>Missing Value Handling and Imputation</strong>: Addressed missing values to maintain the dataset's quality.</li>
-            <li><strong>Categorical Variable Encoding</strong>: Converted categorical variables into an appropriate format for model training.</li>
-            <li><strong>Outlier Removal</strong>: Applied the interquartile range (IQR) method to remove outliers.</li>
+            <li><strong>Null Value Handling and Imputation</strong>: Addressed missing values to maintain dataset quality.</li>
+            <li><strong>Categorical Variable Encoding</strong>: Converted categorical variables into a format suitable for model training.</li>
+            <li><strong>Outlier Removal</strong>: Applied the interquartile range (IQR) method to eliminate outliers.</li>
         </ul>
         
         <h3>Machine Learning Algorithms</h3>
@@ -82,82 +90,84 @@
         <h3>Model Optimization and Evaluation</h3>
         <ul>
             <li><strong>Accuracy</strong>: Measured the overall correctness of the predictions.</li>
-            <li><strong>Confusion Matrix</strong>: Evaluated the performance of the classification models.</li>
+            <li><strong>Confusion Matrix</strong>: Assessed the performance of the classification models.</li>
         </ul>
-        <p>The models were compared to identify the best fit, and hyperparameter optimization was performed to improve results.</p>
+        <p>The models were compared to identify the best fit for predicting weather types, and hyperparameter tuning was performed to enhance results.</p>
+    </div>
+
+    <div class="section-title">Data Analytics Projects (En Español)</div>
+
+    <div class="project">
+        <h2>Project 3: <a href="https://github.com/AlvarezLI/Excel-Tableau_PublicWorks" target="_blank">Análisis de Obras Públicas en Excel y Tableau</a></h2>
+        <p>En este proyecto, realicé un análisis extenso de los datos de obras públicas en Argentina, con el objetivo de obtener información sobre la distribución y el estado de las inversiones en infraestructura a nivel regional, utilizando Excel y Tableau para una mejor visualización y análisis de los datos.</p>
+        
+        <h3>Fuente del Dataset</h3>
+        <p>El dataset fue obtenido del Mapa de Inversiones del Ministerio de Obras Públicas de Argentina, que proporciona información detallada sobre las obras públicas en diversas provincias y su estado de avance.</p>
+        
+        <h3>Técnicas de Análisis y Preprocesamiento de Datos</h3>
+        <ul>
+            <li><strong>Limpieza y Validación de Datos</strong>: Se eliminaron los errores y se validaron los valores cualitativos y cuantitativos para asegurar la precisión del análisis.</li>
+            <li><strong>Tablas Dinámicas</strong>: Se usaron tablas dinámicas para facilitar la exploración de datos y obtener respuestas a preguntas clave, como el número de obras por tipo, estado y ubicación geográfica.</li>
+            <li><strong>Segmentación de Datos</strong>: Se añadieron segmentadores para permitir una segmentación dinámica de los datos por categorías como tipo de obra, año, estado de ejecución y provincia.</li>
+        </ul>
+        
+        <h3>Visualización y Dashboard</h3>
+        <p>Se creó un panel visual interactivo en Excel y Tableau, lo que mejoró la interpretación de los datos:</p>
+        <ul>
+            <li><strong>Dashboard en Excel</strong>: Un panel interactivo con gráficos y segmentadores que permiten una visualización rápida de la distribución y el estado de las obras públicas.</li>
+            <li><strong>Dashboard en Tableau</strong>: Visualización avanzada que permite la exploración visual de los datos y la filtración por diferentes variables de interés.</li>
+        </ul>
+        
+        <h3>Resultados Clave</h3>
+        <p>Este análisis proporcionó una visión general sobre el estado de las obras públicas en Argentina, destacando las regiones con mayor y menor inversión, así como los tipos de proyectos más comunes y su nivel de avance.</p>
     </div>
 
     <div class="project">
-        <h2>Project 3: <a href="https://github.com/AlvarezLI/Excel-Tableau_PublicWorks" target="_blank">Public Works Analysis in Excel and Tableau</a></h2>
-        <p>In this project, I performed a thorough analysis of public works data in Argentina to gain insights into the distribution and status of infrastructure investments at the regional level, using both Excel and Tableau to optimize data visualization and analysis.</p>
+        <h2>Project 4: <a href="https://github.com/AlvarezLI/PowerBi-CostumbresArg" target="_blank">Análisis de Festivales Populares en Argentina</a></h2>
+        <p>Este proyecto se enfoca en el análisis de eventos y festivales populares en Argentina a través de un informe de Power BI. El objetivo fue explorar la asistencia a eventos, sus ubicaciones y los temas de cada evento.</p>
         
-        <h3>Dataset Source</h3>
-        <p>The dataset was obtained from the Investment Map of Argentina's Ministry of Public Works, which provides detailed information on public works in various provinces and their progress status.</p>
+        <h3>Fuente del Dataset</h3>
+        <p>El dataset utilizado en este proyecto es una compilación de información sobre eventos y festivales populares en Argentina, que incluye detalles como el número de asistentes, la ubicación de los eventos y los temas de los mismos.</p>
         
-        <h3>Data Analysis and Preprocessing Techniques</h3>
+        <h3>Técnicas de Preprocesamiento de Datos</h3>
         <ul>
-            <li><strong>Data Cleaning and Validation</strong>: Errors were removed and values were validated, both qualitative and quantitative, to ensure the accuracy of the analysis.</li>
-            <li><strong>Pivot Tables</strong>: Pivot tables in Excel were used to facilitate data exploration and answer key questions such as the number of works by type, status, and geographic location.</li>
-            <li><strong>Data Segmentation</strong>: Segmenters were added to allow dynamic data segmentation by categories such as work type, year, execution status, and province.</li>
+            <li><strong>Control de Valores Nulos</strong>: Se manejaron los valores faltantes adecuadamente para asegurar la integridad del dataset.</li>
+            <li><strong>Codificación de Variables Categóricas</strong>: Las características categóricas se transformaron en valores numéricos, lo cual es esencial para el análisis de datos.</li>
         </ul>
         
-        <h3>Visualization and Dashboards</h3>
-        <p>To enhance data interpretation, interactive dashboards were created in both Excel and Tableau:</p>
+        <h3>Visualización y Análisis</h3>
         <ul>
-            <li><strong>Excel Dashboard</strong>: An interactive dashboard was designed with charts and segmenters to quickly visualize the distribution and status of public works.</li>
-            <li><strong>Tableau Dashboard</strong>: An advanced visualization was created to facilitate visual exploration of the data and allow filtering and segmentation of works by various variables of interest.</li>
+            <li><strong>Asistencia</strong>: Incluye gráficos que muestran el número de asistentes por mes, año y tipo de entrada.</li>
+            <li><strong>Información de los Eventos</strong>: Un mapa muestra la distribución de los eventos por provincia.</li>
+            <li><strong>Análisis de Temas</strong>: Permite explorar los temas de los eventos, mostrando la clasificación por tipo de entrada y el número de eventos por tema.</li>
         </ul>
         
-        <h3>Key Findings</h3>
-        <p>This analysis provided an overview of the state of public works in Argentina, highlighting regions with the most and least investment, as well as the most common types of projects and their progress status.</p>
+        <h3>Resultados Clave</h3>
+        <p>Este análisis ofrece una visión integral de la participación en festivales populares en Argentina, destacando las tendencias en la asistencia, la distribución geográfica de los eventos y los temas predominantes.</p>
     </div>
 
     <div class="project">
-        <h2>Project 4: <a href="https://github.com/AlvarezLI/PowerBi-CostumbresArg" target="_blank">Popular Festivals in Argentina</a></h2>
-        <p>This project focuses on the analysis of events and popular festivals in Argentina through a report developed in Power BI. The goal is to explore event attendance, location, and themes.</p>
+        <h2>Project 5: <a href="https://github.com/AlvarezLI/PowerBI_Spotify" target="_blank">Análisis de Datos Musicales de Spotify</a></h2>
+        <p>Este proyecto se enfoca en analizar los datos de canciones de Spotify, con el objetivo de explorar las características musicales y su relación con la popularidad de las canciones.</p>
         
-        <h3>Dataset Source</h3>
-        <p>The dataset used is a compilation of information on events and popular festivals in Argentina, including details such as the number of attendees, event locations, and themes of the events.</p>
+        <h3>Fuente del Dataset</h3>
+        <p>El dataset utilizado en este proyecto fue descargado de <a href="https://www.kaggle.com/datasets" target="_blank">Kaggle</a>, y contiene información detallada sobre canciones populares en Spotify.</p>
         
-        <h3>Data Preprocessing Techniques</h3>
+        <h3>Preprocesamiento de Datos</h3>
         <ul>
-            <li><strong>Null Value Control</strong>: Handled missing values to ensure dataset integrity.</li>
-            <li><strong>Categorical Variable Encoding</strong>: Transformed categorical features for data analysis.</li>
+            <li><strong>Normalización de Variables</strong>: Se normalizaron las características de las canciones, como el tempo, la energía y la valencia.</li>
+            <li><strong>Transformación de Variables Categóricas</strong>: Las características de las canciones fueron transformadas en formatos apropiados para análisis.</li>
         </ul>
         
-        <h3>Visualization and Analysis</h3>
+        <h3>Visualización y Análisis</h3>
         <ul>
-            <li><strong>Attendance</strong>: Charts showing attendee numbers by month, year, and ticket type.</li>
-            <li><strong>Event Locations</strong>: A map shows the distribution of events by province.</li>
-            <li><strong>Theme Analysis</strong>: Classifies events by theme and ticket type.</li>
+            <li><strong>Correlaciones</strong>: Se analizaron las correlaciones entre las diferentes características musicales y la popularidad de las canciones.</li>
+            <li><strong>Dashboard en Power BI</strong>: Se creó un tablero interactivo que muestra los datos de canciones más populares y sus características.</li>
         </ul>
         
-        <h3>Key Results</h3>
-        <p>This analysis provides a comprehensive view of festival participation in Argentina, highlighting trends in attendance, event distribution, and predominant themes.</p>
+        <h3>Resultados Clave</h3>
+        <p>Los resultados proporcionaron información sobre qué características musicales se correlacionan más estrechamente con la popularidad de las canciones en Spotify, lo que ofrece insights valiosos para artistas y productores musicales.</p>
     </div>
-
-    <div class="project">
-        <h2>Project 5: <a href="https://github.com/AlvarezLI/PowerBI_Spotify" target="_blank">Spotify Music Data Analysis</a></h2>
-        <p>This project focuses on analyzing data from Spotify songs to explore musical characteristics and their relation to song popularity.</p>
-        
-        <h3>Dataset Source</h3>
-        <p>The dataset used was downloaded from <a href="https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023" target="_blank">Kaggle</a>, which provides information on song characteristics such as tempo, valence, energy, and popularity.</p>
-        
-        <h3>Data Preprocessing Techniques</h3>
-        <ul>
-            <li><strong>Data Extraction</strong>: Relevant song data was extracted for analysis.</li>
-            <li><strong>Data Visualization</strong>: Visualizations explored the distribution of musical characteristics and their relation to popularity.</li>
-        </ul>
-        
-        <h3>Visualization and Analysis</h3>
-        <ul>
-            <li><strong>Tempo Distribution</strong>: A histogram shows tempo distribution among songs.</li>
-            <li><strong>Energy vs. Popularity</strong>: A scatter plot illustrates the relationship between song energy and popularity.</li>
-        </ul>
-        
-        <h3>Key Results</h3>
-        <p>This analysis provides insights into how musical characteristics influence song popularity on Spotify, revealing trends across different genres.</p>
-    </div>
-
+    
 </body>
 </html>
