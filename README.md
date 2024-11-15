@@ -3,6 +3,8 @@
 Welcome to my data science portfolio! In this collection, you'll find various projects demonstrating my skills in data analysis, machine learning, and data visualization. The portfolio includes projects in both **English** and **Spanish** to reflect my bilingual capabilities.
 
 ---
+#  Data Science Projects (English-Python)
+---
 
 ## Project 1: [Mushroom Edibility Model](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
 This project is part of my final exam for a data science course, where I classified different mushrooms based on their edibility.
@@ -46,6 +48,8 @@ Each model was evaluated using key metrics such as:
 
 Models were compared to identify the best fit for predicting weather types, and **hyperparameter tuning** was performed to enhance results.
 
+---
+# Proyectos de Data Analytics (Español-Excel, Tableau, PowerBI )
 ---
 
 ## Project 3: [Public Works Analysis in Excel and Tableau](https://github.com/AlvarezLI/Excel-Tableau_PublicWorks)  
