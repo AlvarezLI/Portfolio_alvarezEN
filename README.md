@@ -1,5 +1,9 @@
 # Portfolio Alvarez Luis Ignacio
 
+Welcome to my data science portfolio! In this collection, you'll find various projects demonstrating my skills in data analysis, machine learning, and data visualization. The portfolio includes projects in both **English** and **Spanish** to reflect my bilingual capabilities.
+
+---
+
 ## Project 1: [Mushroom Edibility Model](https://github.com/AlvarezLI/ProjectDS-Mushrooms)  
 This project is part of my final exam for a data science course, where I classified different mushrooms based on their edibility.
 
@@ -16,6 +20,8 @@ The following algorithms were applied to predict mushroom edibility:
 - **Random Forest Classifier**
 - **Support Vector Machine (SVM)**
 - **Logistic Regression**
+
+---
 
 ## Project 2: [Weather Prediction Model](https://github.com/AlvarezLI/ProyectoDSII_ParteI)  
 In this project, I conducted an in-depth analysis of a synthetic dataset designed to classify different climate types.
@@ -40,12 +46,13 @@ Each model was evaluated using key metrics such as:
 
 Models were compared to identify the best fit for predicting weather types, and **hyperparameter tuning** was performed to enhance results.
 
-## Project 3: [Public Works Analysis in Excel and Tableau](https://github.com/AlvarezLI/Excel-Tableau_PublicWorks)
+---
 
-In this project, I conducted an extensive analysis of public works data in Argentina, aiming to gain insights into the distribution and status of infrastructure investments at a regional level, using both Excel and Tableau for enhanced visualization and data analysis.
+## Project 3: [Public Works Analysis in Excel and Tableau](https://github.com/AlvarezLI/Excel-Tableau_PublicWorks)  
+This project is in **Spanish** and focuses on conducting an extensive analysis of public works data in Argentina. The goal was to gain insights into the distribution and status of infrastructure investments at a regional level, using both **Excel** and **Tableau** for enhanced visualization and data analysis.
 
 ### Dataset Source
-The dataset was obtained from the Investment Map of the Ministry of Public Works of Argentina, which provides detailed information on public works in various provinces and their status of progress.
+The dataset was obtained from the **Investment Map of the Ministry of Public Works of Argentina**, which provides detailed information on public works in various provinces and their status of progress.
 
 ### Data Analysis and Preprocessing Techniques
 To process and analyze the data, the following techniques were employed:
@@ -55,21 +62,16 @@ To process and analyze the data, the following techniques were employed:
 
 ### Visualization and Dashboard
 An interactive visual dashboard was created in Excel and Tableau, enhancing the interpretation of data:
-- **Excel Dashboard**: An interactive panel with charts and segmenters that allow for quick visualization of the distribution and status of public works:
-  - **Distribution of Works by Province**: Highlights provinces with the highest investment in works.
-  - **Classification of Works by Status**: Shows the progress of works (planned, in progress, completed).
-  - **Analysis by Type of Work**: Identifies priority categories of works in public investment.
-  
-- **Tableau Dashboard**: Advanced visualization that allows for visual exploration of data and filtering by different variables of interest:
-  - **Interactive Map**: Displays the geographical distribution of works at the provincial level.
-  - **Temporal Analysis**: Visualizes the progress of works across different years.
-  - **Breakdown by Type and Status of Work**: Facilitates the analysis of the most relevant work categories and their current status.
+- **Excel Dashboard**: An interactive panel with charts and segmenters that allow for quick visualization of the distribution and status of public works.
+- **Tableau Dashboard**: Advanced visualization that allows for visual exploration of data and filtering by different variables of interest.
 
 ### Key Results
-This analysis provided an overview of the state of public works in Argentina, highlighting regions with the highest and lowest investment, as well as the most common project types and their level of progress. These insights are valuable for understanding investment trends and identifying potential areas for improvement in public works management.
+This analysis provided an overview of the state of public works in Argentina, highlighting regions with the highest and lowest investment, as well as the most common project types and their level of progress.
+
+---
 
 ## Project 4: [Popular Festivals in Argentina Analysis](https://github.com/AlvarezLI/PowerBi-CostumbresArg)  
-This project focuses on the analysis of events and popular festivals in Argentina through a Power BI report. The goal was to explore event attendance, locations, and themes of each event.
+This project is in **Spanish** and focuses on analyzing events and popular festivals in Argentina through a **Power BI** report. The goal was to explore event attendance, locations, and themes of each event.
 
 ### Dataset Source
 The dataset used in this project is a compilation of information on events and popular festivals in Argentina, including details such as the number of attendees, event locations, and themes of the events.
@@ -87,9 +89,10 @@ An interactive Power BI dashboard was developed to explore different aspects of 
 ### Key Results
 This analysis provides a comprehensive view of participation in popular festivals in Argentina, highlighting trends in attendance, the geographical distribution of events, and predominant themes.
 
-## Project 5: [Spotify Music Data Analysis](https://github.com/AlvarezLI/PowerBI_Spotify)
+---
 
-This project focuses on analyzing data from Spotify songs, aiming to explore musical characteristics and their relation to song popularity.
+## Project 5: [Spotify Music Data Analysis](https://github.com/AlvarezLI/PowerBI_Spotify)  
+This project focuses on analyzing data from **Spotify** songs, aiming to explore musical characteristics and their relation to song popularity.
 
 ### Dataset Source
 The dataset used in this project was downloaded from [Kaggle](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023), which provides detailed information about song characteristics such as tempo, valence, energy, and popularity.
@@ -105,3 +108,8 @@ Several visualizations were created to explore different aspects of the songs:
 
 ### Key Results
 This analysis provides insights into how musical characteristics influence the popularity of songs on Spotify, highlighting trends across different music genres.
+
+---
+
+Feel free to explore each project for detailed insights into my data science journey. For further information on any of the projects, please follow the links provided to the GitHub repositories.
+
